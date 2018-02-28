@@ -1,7 +1,6 @@
 body{
 	margin:0;
-	paddin:0;
-	background:url(image.jpg);
+	padding:0;
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
