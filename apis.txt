@@ -1,0 +1,15 @@
+
+Twitter API
+https://developer.twitter.com/en.html
+
+Google API
+https://developers.google.com/products/
+
+linkedin API
+https://developer.linkedin.com/docs/signin-with-linkedin
+
+Facebook API
+https://developers.facebook.com/
+
+Instagram
+https://www.instagram.com/developer/
