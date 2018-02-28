@@ -1,15 +1,16 @@
 
 Twitter API
 https://developer.twitter.com/en.html
+API Key: 755SseDbhwGpha5CVRLh7dnuA 
 
-Google API
+Google API =
 https://developers.google.com/products/
-
-linkedin API
-https://developer.linkedin.com/docs/signin-with-linkedin
+API Key: AIzaSyC7xBw9DgPm7ydkcjueV-cup3VnhIONMYM
 
 Facebook API
 https://developers.facebook.com/
+APP ID: 380034842461359
 
-Instagram
-https://www.instagram.com/developer/
+linkedin API =
+https://developer.linkedin.com/docs/signin-with-linkedin
+Client ID: 78lem2en393inh
