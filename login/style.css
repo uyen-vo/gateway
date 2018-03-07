@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto');
+
 body{
 	margin:0;
 	padding:0;
 	background-size: cover;
 	background-position: center;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: lightblue;
 }
 
+/* Login page */
 #login-wrapper{
 	width: 100vw;
 	height: 100vh;
@@ -28,6 +31,7 @@ h1{
 	padding: 0 0 20px;
 	text-align: center;
 	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .login-box input{
@@ -56,6 +60,7 @@ h1{
 	height: 40px;
 	background: #1c8adb;
 	color: #fff;
+	font-family: 'Raleway', sans-serif;
 	font-weight:bold;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
@@ -93,4 +98,45 @@ h1{
 
 form{
 	margin:0; padding:0;
+}
+
+/* Dashboard/home */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #333;
+	padding:10px 0px;
+	padding-right:10px;
+}
+
+nav ul li {
+	float:left;
+	line-break: 200px;
+	vertical-align: middle;
+}
+
+nav ul li a {
+	display: inline-block;
+    color: white;
+	text-decoration: none;
+	margin:auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	vertical-align: middle;
+}
+
+.title-text{
+	padding-top:2px;
+}
+
+nav ul li a img{
+	height: 40px; width: 40px;
+	margin:0;
+	margin-left:10px;
+}
+
+.logo {
+	margin-right:10px;
 }
