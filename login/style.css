@@ -45,7 +45,7 @@ textarea, input[type ="text"]
 	height: 40px;
 	color:black;
 	font-size: 16px;
-	border-bottom:2px solid grey;
+	border-bottom:2px solid lightgray;
 	padding:0px;
 }
 
@@ -93,7 +93,7 @@ textarea, input[type ="text"]:focus
 	font-size:.8em;
 	margin-bottom:20px;
 	margin-top:2px;
-	color:gray;
+	color:lightgray;
 }
 
 form{
@@ -101,7 +101,7 @@ form{
 }
 
 /* Dashboard/home */
-#post ul, nav ul {
+#status ul, #feed ul, nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -117,7 +117,7 @@ nav ul li {
 	vertical-align: middle;
 }
 
-#post ul li, nav ul li a {
+#status ul li, #feed ul li, nav ul li a {
 	display: inline-block;
     color: white;
 	text-decoration: none;
@@ -141,13 +141,13 @@ nav ul li a img{
 	margin-right:10px;
 }
 
-#post {
+#status {
 	padding: 10 20px;
 	padding-bottom:0;
 	background-color:white;
 }
 
-#post .submit {
+#status .submit {
 	margin:0;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
@@ -164,37 +164,37 @@ nav ul li a img{
     cursor: pointer;
 }
 
-#post .submit:hover{
+#status .submit:hover{
 	background-color: #1c8adb;
 }
 
-#post .submit:focus{
+#status .submit:focus{
 	outline:none; border:none;
 }
 
-#post ul {
+#status ul {
 	margin:0; padding:0;
 	padding-top:10px;
 	background-color:white;
 }
 
-#post ul li {
+#status ul li {
 	margin-right:10px;
 }
 
-#post ul li svg {
+#status ul li svg {
 	width: 50px; height:50px;
-	fill: grey;
+	fill: gray;
 }
-#post ul .submit-li { 
+#status ul .submit-li { 
 	float:right;
 	margin:0px;
 }
 
-#post ul li svg:hover{
+#status ul li svg:hover{
 	fill:#1c8adb;
 }
-#post ul .chosen svg{
+#status ul .chosen svg{
 	fill:black;
 }
 
@@ -203,7 +203,7 @@ nav ul li a img{
 	height:100%;
 }
 
-#post, #feed {
+#status, #feed {
 	margin: 10px;
 	border:2px solid black;
 }
@@ -212,9 +212,61 @@ nav ul li a img{
 textarea{
 	height:auto;
 	padding:10px 0;
-	margin-top:2px;
+	margin:2px 0px;
 }
 
 #feed {
-	margin-top:0px; 
+	margin-top:0px;
+	background-color:white;
+}
+
+#feed ul {
+	padding:0;
+	margin:0;
+}
+
+#feed ul li {
+	float:left;
+	padding:0;
+	margin:0;
+	color: white;
+	background-color:black;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display:block;
+	padding:10px 0px;
+	text-align: center;
+	box-sizing:border-box;
+	border-left: 1px solid white;
+	border-right:1px solid white;
+	width:25%;
+}
+
+#feed ul li:first-child{
+	border-left:none;
+}
+
+#feed ul li:last-child{
+	border-right:none;
+}
+
+#feed ul li:hover{
+	background-color:#1c8adb;
+}
+
+#feed ul .active {
+	color: black;
+	background-color:white;
+}
+
+#feed ul .active:hover {
+	color: black;
+	background-color:white;
+}
+
+.post {
+	background-color: lightgray;
+	margin: 0 auto;
+	margin: 20px;
 }
