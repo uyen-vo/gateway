@@ -1,44 +1,72 @@
-#accounts-wrapper .title{
-	position: absolute;
-	top: 100px;
-	right: 900px;
-	color: black;
-	//border: 1px solid red;	
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto');
+
+body{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: lightblue;
 }
 
-#accounts-wrapper .twitter_icon {
-	position: absolute;
-	top: 300px;
-	right: 1000px;
+#accounts-wrapper{
+	width: 100vw;
+	height: 100vh;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.accounts-box{
+	width: 320px;
+	position:relative;
+	margin: 0 auto;
+	background-color:white;
+	padding: 60px 30px;
+	display:block;
+	top: 50%;
+	transform: translateY(-50%);
+	border:2px solid black;
+}
+
+#accounts-wrapper img {
 	width: 50px;
 	height: 50px;
+	vertical-align: middle;
+	margin-right:20px;
 }
 
-#accounts-wrapper .google-plus_icon {
-	-webkit-filter: brightness(57%);
-	position: absolute;
-	top: 400px;
-	right: 1000px;
-	width: 50px;
-	height: 50px;
+.accounts-box div {
+	margin-bottom: 20px;
 }
 
-#accounts-wrapper .facebook_icon {
-	position: absolute;
-	top: 500px;
-	right: 1000px;
-	width: 50px;
-	height: 50px;
+.accounts-box div span {
+	color: #1c8adb;
+	text-decoration: underline;
+	font-weight: bold;
+	text-underline-position: under;
 }
 
-#accounts-wrapper .linkedin_icon {
-	position: absolute;
-	top: 600px;
-	right: 1000px;
-	width: 50px;
-	height: 50px;
+.accounts-box div .added {
+	color:black;
+	text-decoration: none;
 }
 
+.accounts-box div span:hover{
+	color:#39dc79;
+	text-decoration-color: #39dc79;
+}
 
+.accounts-box div:last-child {
+	margin-bottom: 0px;
+}
 
-
+.accounts-bounding {
+	width:80%;
+	margin: 0 auto;
+}
