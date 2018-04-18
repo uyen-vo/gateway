@@ -7,6 +7,10 @@ Google API =
 https://developers.google.com/products/
 API Key: AIzaSyC7xBw9DgPm7ydkcjueV-cup3VnhIONMYM
 
+"client_id": "222547009723-f547hrheh419irhaue646nlm875td4cq.apps.googleusercontent.com",
+    "client_secret": "xyo-rEYkaMnuY3_aRLVky-FH",
+
+
 Facebook API
 https://developers.facebook.com/
 APP ID: 380034842461359
